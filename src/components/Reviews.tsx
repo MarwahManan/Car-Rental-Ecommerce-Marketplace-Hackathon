@@ -12,7 +12,7 @@ const Reviews = () => {
       date: "21 July 2022",
       profilePicture: "/Profil.png",  
       rating: 4,
-    }  
+    },  
     {
       name: "Skylar Dias",
       role: "CEO at Amazon",
