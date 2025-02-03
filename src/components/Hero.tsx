@@ -27,7 +27,7 @@ const Hero = ()=> {
               Rental Car
             </button>
             
-            <img
+            <Image
               src="/image 7.png"
               alt="Car"
               className=" mt-4 w-{340px} h-{108} mx-auto object-cover"
@@ -53,7 +53,7 @@ const Hero = ()=> {
               Rental Car
             </button>
           
-            <img
+            <Image
               src="/image 8.png" 
               alt="Car"
               className=" mt-4 w-{340px} h-{108} mx-auto object-cover"
