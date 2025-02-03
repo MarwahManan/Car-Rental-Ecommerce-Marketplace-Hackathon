@@ -106,7 +106,7 @@ const GiftCardVoucher = () => {
                     className="bg-gradient-to-br from-blue-100 to-purple-100 p-6 rounded-lg text-center hover:shadow-lg transition-shadow cursor-pointer"
                   >
                     <div className="h-32 bg-gray-200 rounded-lg mb-4 overflow-hidden">
-                      <img
+                      <Image
                         src={card.image}
                         alt={`Gift Card ${card.amount}`}
                         className="w-full h-full object-cover"
