@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { FaStar, FaRegStar } from "react-icons/fa";
+import Image from 'next/image';
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([
