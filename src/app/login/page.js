@@ -17,9 +17,7 @@ export default function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-
   const handleSignIn = () => {
-     
     const storedUser = JSON.parse(localStorage.getItem("user") || "null");
 
     if (!storedUser) {
@@ -27,17 +25,16 @@ export default function Login() {
       return;
     }
 
-  if (email === storedUser.email && password === storedUser.password) {
-    
-    if (email === "r.manan0786@gmail.com" && password === "0987654321") {
-      router.push("/AdminDashboard");
+    if (email === storedUser.email && password === storedUser.password) {
+      if (email === "r.manan0786@gmail.com" && password === "0987654321") {
+        router.push("/AdminDashboard");
+      } else {
+        router.push("/UserDashboard");
+      }
     } else {
-      router.push("/UserDashboard");
+      setError("Invalid credentials.");
     }
-  } else {
-    setError("Invalid credentials.");
-  }
-};
+  };
 
   return (
     <div className={styles.loginContainer}>
@@ -70,7 +67,7 @@ export default function Login() {
             Log in
           </button>
           <p className={styles.paragraph}>
-            Don't have an account?{" "}
+            Don&apos;t have an account?{" "}
             <Link href="/CreateAccount" className={styles.link}>
               Sign up
             </Link>
