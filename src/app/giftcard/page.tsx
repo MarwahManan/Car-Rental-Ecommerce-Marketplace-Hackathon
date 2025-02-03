@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from 'next/image';
 import { motion, AnimatePresence } from "framer-motion";
 import { FaGift, FaCreditCard, FaCheckCircle } from "react-icons/fa";
 
