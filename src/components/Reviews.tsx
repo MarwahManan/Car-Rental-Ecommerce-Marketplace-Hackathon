@@ -97,7 +97,7 @@ const Reviews = () => {
             <div className="flex justify-between mb-2">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full overflow-hidden">
-                  <img src={review.profilePicture} alt={review.name} className="object-cover w-full h-full" />
+                  <Image src={review.profilePicture} alt={review.name} className="object-cover w-full h-full" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800">{review.name}</h4>
@@ -167,7 +167,7 @@ const Reviews = () => {
           />
           {newReview.profilePicture && (
             <div className="mt-2">
-              <img
+              <Image
                 src={newReview.profilePicture}
                 alt="Profile Preview"
                 className="w-20 h-20 rounded-full object-cover border"
