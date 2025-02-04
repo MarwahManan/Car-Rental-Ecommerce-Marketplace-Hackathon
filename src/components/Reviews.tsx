@@ -19,7 +19,7 @@ const Reviews = () => {
       role: "CEO at Amazon",
       comment: "We are greatly helped by the services of the MORENT Application. Morent has low prices...",
       date: "20 July 2022",
-      profilePicture: "/Profill.png",  
+      profilePicture: "/profill.png",  
       rating: 4, 
      }
   ]);
