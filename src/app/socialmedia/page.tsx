@@ -35,7 +35,7 @@ const SharePage = () => {
       transmission: 'Automatic',
       seatingCapacity: 5,
       pricePerDay: 150,
-      imageUrl: '/car (5).png',
+      imageUrl: '/Car (5).png',
     },
     {
       _id: '2',
@@ -46,7 +46,7 @@ const SharePage = () => {
       transmission: 'Manual',
       seatingCapacity: 7,
       pricePerDay: 200,
-      imageUrl: '/car (4).png',
+      imageUrl: '/Car (4).png',
     },
     {
       _id: '3',
@@ -57,7 +57,7 @@ const SharePage = () => {
       transmission: 'Manual',
       seatingCapacity: 6,
       pricePerDay: 100,
-      imageUrl: '/car (6).png',
+      imageUrl: '/Car (6).png',
     },
   ];
 
