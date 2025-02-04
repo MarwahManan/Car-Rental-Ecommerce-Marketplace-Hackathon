@@ -283,10 +283,10 @@ export default function DashboardPage({ params }: { params: { carId: string } })
               <h2 className="text-lg font-semibold mb-4">Recent Transactions</h2>
               <ul className={`space-y-4 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
                 {[
-                  { name: "Nissan GT-R", price: "$80.00", image: "/car (6).png" },
-                  { name: "Koenigsegg", price: "$99.00", image: "/car (4).png" },
+                  { name: "Nissan GT-R", price: "$80.00", image: "/Car (6).png" },
+                  { name: "Koenigsegg", price: "$99.00", image: "/Car (4).png" },
                   { name: "Rolls-Royce", price: "$96.00", image: "/image 8.png" },
-                  { name: "CR-V", price: "$80.00", image: "/car (5).png" },
+                  { name: "CR-V", price: "$80.00", image: "/Car (5).png" },
                 ].map((item, index) => (
                   <li key={index} className="flex justify-between items-center">
                     <Image 
