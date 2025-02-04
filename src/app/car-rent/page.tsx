@@ -22,7 +22,7 @@ export default function CarRentPage() {
       transmission: 'Automatic',
       seatingCapacity: 5,
       pricePerDay: 99,
-      imageUrl: '/car (6).png',
+      imageUrl: '/Car (6).png',
     },
     {
       id: '2',
@@ -44,7 +44,7 @@ export default function CarRentPage() {
       transmission: 'Automatic',
       seatingCapacity: 7,
       pricePerDay: 129,
-      imageUrl: '/car (4).png',
+      imageUrl: '/Car (4).png',
     },
     {
       id: '4',
@@ -55,7 +55,7 @@ export default function CarRentPage() {
       transmission: 'Automatic',
       seatingCapacity: 5,
       pricePerDay: 119,
-      imageUrl: '/car (5).png',
+      imageUrl: '/Car (5).png',
     },
   ];
 
