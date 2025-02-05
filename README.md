@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Rental Ecommerce Platform - Marketplace Builder Hackathon 2025
 
-## Getting Started
+Project Overview:
+Get ready to explore a cutting-edge rental ecommerce platform, carefully crafted for the Marketplace Builder Hackathon 2025! This innovative project showcases a seamless online car rental experience, designed to provide users with a hassle-free and intuitive interface.
 
-First, run the development server:
+Live Demo Vercel Link:
+https://car-rental-ecommerce-marketplace-hackathon.vercel.app 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Tech Stack:
+Our platform leverages the latest technologies to ensure a robust, scalable, and maintainable solution:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Frontend: Next.js, a popular React framework for server-side rendering, provides fast and seamless page transitions.
+- Tailwind CSS: A utility-first CSS framework ensures a consistent and responsive design.
+- TypeScript: Enables type-safe JavaScript development, reducing runtime errors and improving code maintainability.
+- Backend: (link unavailable)
+- Deployment: Vercel provides fast and reliable hosting, with continuous deployment and integration.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Repository Structure:
+This repository is divided into six folders, each representing a day of the hackathon:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Day 1: Laying the Foundations
+    - Initial setup and foundational work, including project planning and scaffolding.
+- Day 2: Building Momentum
+    - Continued development and feature integration, focusing on core functionality.
+- Day 3: Data Migration and Integration
+    - Documentation and files for data migration and integration, ensuring seamless data flow.
+- Day 4: Feature Enhancement
+    - Latest updates and files for feature enhancements, including UI/UX improvements.
+- Day 5: Testing and Optimization
+    - Documentation and updates on testing, optimization, and deployment preparation.
+- Day 6: Final Touches
+    - Documentation for final testing and deployment tasks, ensuring a polished and ready-to-launch platform.
 
-## Learn More
+Features and Functionality:
+Our rental ecommerce platform boasts the following features:
 
-To learn more about Next.js, take a look at the following resources:
+- User authentication and authorization
+- Car listing and filtering
+- Rental booking and payment processing
+- User dashboard and profile management
+- Admin panel for managing car listings and bookings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+About This Project
+Developed for the Marketplace Builder Hackathon 2025, this rental ecommerce platform showcases our team's expertise and dedication to building innovative solutions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Acknowledgments
+Thanks for stopping by! I hope you find my project informative and inspiring.
